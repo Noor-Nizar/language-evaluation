@@ -78,7 +78,7 @@ class Evaluator(object, metaclass=abc.ABCMeta):
 
 class CocoEvaluator(Evaluator):
     def __init__(self,
-                 coco_types=["BLEU", "METEOR", "ROUGE_L", "CIDEr", "SPICE"],
+                 coco_types=["BLEU", "METEOR", "ROUGE_L", "CIDEr"],
                  tokenization_fn=None,
                  verbose=True,
                  unk_token='_UNK'):
