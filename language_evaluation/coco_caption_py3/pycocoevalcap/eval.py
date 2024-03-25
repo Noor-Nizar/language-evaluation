@@ -11,7 +11,6 @@ _COCO_TYPE_TO_METRIC = {
     "METEOR": (Meteor(), "METEOR"),
     "ROUGE_L": (Rouge(), "ROUGE_L"),
     "CIDEr": (Cider(), "CIDEr"),
-    "SPICE": (Spice(), "SPICE"),
 }
 
 class COCOEvalCap:
